@@ -1,0 +1,134 @@
+<resources>
+    <!--App Name-->
+    <string name="app_name">LuxTrace</string>
+
+    <!--Button-->
+    <string name="btnLogin">Login</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDone">Done</string>
+    <string name="btnDProduct">Delivery Product</string>
+    <string name="btnPrint">Print</string>
+    <string name="btnUTracking">Update Tracking</string>
+    <string name="btnSOff">Sign Off</string>
+
+    <!--Login Page-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <!--Dashboard Page-->
+    <string name="dashboard">Dashboard</string>
+    <string name="slogan">Created The Journey</string>
+    <string name="create_material">Create Material</string>
+    <string name="list_material">List Material</string>
+    <string name="create_product">Create Product</string>
+    <string name="processing_product">Processing Product</string>
+    <string name="list_product">List Product</string>
+    <string name="delivery_tracking">Delivery Tracking</string>
+
+    <!--Create Material-->
+    <string name="nMaterial">Material Name</string>
+    <string name="jMaterial">Type of Material</string>
+    <string name="dMaterial">Material Description</string>
+    <string name="pnPemasok">Select Supplier Name</string>
+    <string name="jmMaterial">Amount</string>
+    <string name="tpMaterial">Purchase Date</string>
+    <string name="fMaterial">Material Photo</string>
+
+    <!--Create Product-->
+    <string name="nProduct">Product Name</string>
+    <string name="dProduct">Product Description</string>
+    <string name="jProduct">Amount</string>
+    <string name="uMaterial">Upper Material</string>
+    <string name="uCraftsman">Upper Craftsman</string>
+    <string name="iMaterial">Insole Material</string>
+    <string name="iCraftsman">Insole Craftsman</string>
+    <string name="lMaterial">Lining Material</string>
+    <string name="lCraftsman">Lining Craftsman</string>
+    <string name="oMaterial">Outsole Material</string>
+    <string name="oCraftsman">Outsole Craftsman</string>
+    <string name="slMaterial">Shoe Lace Material</string>
+    <string name="slCraftsman">Shoe Lace Craftsman</string>
+    <string name="tpProduct">Production Date</string>
+
+    <!--List Material-->
+    <string name="mInformation">Material Information</string>
+    <string name="mHistory">Material History</string>
+    <string name="nSupplier">Supplier Name</string>
+    <string name="aSupplier">Supplier Address</string>
+    <string name="pDate">Purchase Date</string>
+    <string name="mAmount">Material Amount</string>
+    <string name="aoMaterial">Addition of Material</string>
+    <string name="mUsage">Material Usage</string>\
+    <string name="mAdded">Material Added</string>
+
+    <!--Name Material-->
+    <string-array name="dnMaterial">
+        <item>Imported Shoe Upper</item>
+        <item>Imported Shoe Insole</item>
+        <item>Imported Shoe Lining</item>
+        <item>Imported Shoe Outsole</item>
+        <item>Imported Shoe Lace</item>
+        <item>Exported Shoe Upper</item>
+        <item>Exported Shoe Insole</item>
+        <item>Exported Shoe Lining</item>
+        <item>Exported Shoe Outsole</item>
+        <item>Exported Shoe Lace</item>
+    </string-array>
+
+    <string-array name="ddMaterial">
+        <item>Imported Shoe Upper, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos ex illo inventore laudantium perferendis suscipit, tempore unde voluptatum! Ab animi consequuntur cum, ducimus eius est excepturi harum hic id laborum neque optio quidem ratione reprehenderit repudiandae saepe suscipit tempora totam veniam voluptatibus? Atque cumque deserunt minus quos, temporibus veniam.</item>
+        <item>Imported Shoe Insole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Imported Shoe Lining, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Imported Shoe Outsole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Imported Shoe Lace, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Exported Shoe Upper, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Exported Shoe Insole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Exported Shoe Lining, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Exported Shoe Outsole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Exported Shoe Lace, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+    </string-array>
+
+    <integer-array name="dpMaterial">
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+    </integer-array>
+
+    <!--Processing Product-->
+    <string-array name="dnProduct">
+        <item>Atlas Sneaker White</item>
+        <item>Saki Sneakers - Soybean</item>
+        <item>Kotta Hybrid Sneakers - Skeleton</item>
+        <item>Tiga Slip-On Sneakers - Cerulean Blue</item>
+        <item>PIJAK BUMI x Kevinswork x Bluesville Sakka Batik</item>
+        <item>Atlas Eceng Hi Top Sneaker White</item>
+    </string-array>
+
+    <string-array name="ddProduct">
+        <item>Atlas Sneaker White, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet dignissimos dolores eligendi libero minima molestias quas recusandae temporibus totam!</item>
+        <item>Saki Sneakers - Soybean, Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet consequuntur dolorum error ex incidunt iure labore, quibusdam ratione velit?</item>
+        <item>Kotta Hybrid Sneakers - Skeleton, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores cupiditate debitis dicta dolorum impedit ipsum iusto nihil, quidem voluptatem!</item>
+        <item>Tiga Slip-On Sneakers - Cerulean Blue, Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad debitis dicta eaque enim exercitationem explicabo nostrum odio quidem veniam?</item>
+        <item>PIJAK BUMI x Kevinswork x Bluesville Sakka Batik, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at dignissimos eius facere illo magni molestiae porro quidem totam voluptate.</item>
+        <item>Atlas Eceng Hi Top Sneaker White, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem doloremque dolores earum enim eos ex impedit labore magni optio provident.</item>
+    </string-array>
+
+    <integer-array name="dpProduct">
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+    </integer-array>
+
+</resources>
