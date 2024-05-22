@@ -66,24 +66,21 @@
         android:text="@string/slogan" />
 
     <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:rowCount="4"
         android:columnCount="2"
         android:layout_margin="25dp"
-        android:layout_gravity="center_vertical"
-        android:layout_below="@+id/top_view">
+        android:layout_below="@+id/top_view" >
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             app:cardCornerRadius="15dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_margin="15dp"
-            android:layout_gravity="center"
+            android:contentDescription="@string/create_material"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -98,6 +95,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/check_list"
+                    android:contentDescription="@string/create_material"
                     android:layout_gravity="center_horizontal"/>
 
                 <TextView
@@ -114,15 +112,13 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             app:cardCornerRadius="15dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_row="1"
             android:layout_column="1"
             android:layout_margin="15dp"
-            android:layout_gravity="center"
+            android:contentDescription="@string/list_material"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -137,6 +133,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/packing_list"
+                    android:contentDescription="@string/list_material"
                     android:layout_gravity="center_horizontal"/>
 
                 <TextView
@@ -153,15 +150,13 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             app:cardCornerRadius="15dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_row="2"
             android:layout_column="0"
             android:layout_margin="15dp"
-            android:layout_gravity="center"
+            android:contentDescription="@string/create_product"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -176,6 +171,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/package1"
+                    android:contentDescription="@string/create_product"
                     android:layout_gravity="center_horizontal"/>
 
                 <TextView
@@ -192,15 +188,13 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             app:cardCornerRadius="15dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_row="2"
             android:layout_column="1"
             android:layout_margin="15dp"
-            android:layout_gravity="center"
+            android:contentDescription="@string/processing_product"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -215,6 +209,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/delivery"
+                    android:contentDescription="@string/processing_product"
                     android:layout_gravity="center_horizontal"/>
 
                 <TextView
@@ -231,15 +226,13 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             app:cardCornerRadius="15dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_row="3"
             android:layout_column="0"
             android:layout_margin="15dp"
-            android:layout_gravity="center"
+            android:contentDescription="@string/list_product"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -254,6 +247,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/checklist"
+                    android:contentDescription="@string/list_product"
                     android:layout_gravity="center_horizontal"/>
 
                 <TextView
@@ -270,15 +264,13 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             app:cardCornerRadius="15dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_row="3"
             android:layout_column="1"
             android:layout_margin="15dp"
-            android:layout_gravity="center"
+            android:contentDescription="@string/delivery_tracking"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -293,6 +285,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/delivery_tracking"
                     android:src="@drawable/tracking" />
 
                 <TextView
