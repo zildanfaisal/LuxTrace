@@ -1,5 +1,6 @@
 package com.example.luxtrace.ui.creatematerial
 
+import android.app.DatePickerDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -8,10 +9,13 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.luxtrace.R
 import com.example.luxtrace.databinding.ActivityCreateMaterialBinding
 import com.example.luxtrace.ui.dashboard.Dashboard
+import com.google.android.material.textfield.TextInputEditText
+import java.util.Calendar
 
 class CreateMaterial : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityCreateMaterialBinding
+    private lateinit var tpMaterialEditText: TextInputEditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +44,20 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
         binding.pnPemasokDropdown.setAdapter(adapterPNPemasok)
 
         binding.btnCMaterial.setOnClickListener(this)
+
+        // update
+        tpMaterialEditText = findViewById(R.id.tpMaterialEditText)
+
+        tpMaterialEditText.setOnClickListener {
+            showDatePickerDialog()
+        }
+
+        tpMaterialEditText.setOnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) {
+                showDatePickerDialog()
+            }
+        }
+
     }
 
     override fun onClick(v: View?) {
@@ -49,5 +67,22 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
                 startActivity(moveIntent)
             }
         }
+    }
+
+    private fun showDatePickerDialog() {
+        val calendar = Calendar.getInstance()
+        val year = calendar.get(Calendar.YEAR)
+        val month = calendar.get(Calendar.MONTH)
+        val day = calendar.get(Calendar.DAY_OF_MONTH)
+
+        val datePickerDialog = DatePickerDialog(
+            this,
+            { _, selectedYear, selectedMonth, selectedDay ->
+                val selectedDate = "$selectedDay/${selectedMonth + 1}/$selectedYear"
+                tpMaterialEditText.setText(selectedDate)
+            },
+            year, month, day
+        )
+        datePickerDialog.show()
     }
 }
