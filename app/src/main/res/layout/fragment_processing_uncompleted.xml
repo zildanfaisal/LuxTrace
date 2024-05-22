@@ -571,7 +571,6 @@
                     android:id="@+id/btnUpdate"
                     android:backgroundTint="@color/white"
                     android:textColor="@color/primary_500"
-                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
@@ -583,7 +582,6 @@
                 <Button
                     android:id="@+id/btnDone"
                     android:backgroundTint="@color/primary_500"
-                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
