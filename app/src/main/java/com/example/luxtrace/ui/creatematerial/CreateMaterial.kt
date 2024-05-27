@@ -1,14 +1,24 @@
 package com.example.luxtrace.ui.creatematerial
 
+import android.Manifest
 import android.app.DatePickerDialog
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ArrayAdapter
+import android.widget.Toast
+import androidx.activity.result.PickVisualMediaRequest
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.example.luxtrace.R
 import com.example.luxtrace.databinding.ActivityCreateMaterialBinding
 import com.example.luxtrace.ui.dashboard.Dashboard
+import com.example.luxtrace.ui.utils.getFileNameFromUri
+import com.example.luxtrace.ui.utils.getImageUri
 import com.google.android.material.textfield.TextInputEditText
 import java.util.Calendar
 
@@ -16,6 +26,7 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityCreateMaterialBinding
     private lateinit var tpMaterialEditText: TextInputEditText
+    private var currentImageUri: Uri? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,10 +53,11 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
 
         binding.jMaterialDropdown.setAdapter(adapterJMaterial)
         binding.pnPemasokDropdown.setAdapter(adapterPNPemasok)
-
         binding.btnCMaterial.setOnClickListener(this)
+        binding.btnGallery.setOnClickListener { startGallery() }
+        binding.btnCamera.setOnClickListener { startCamera() }
 
-        // update
+        // datePicker
         tpMaterialEditText = findViewById(R.id.tpMaterialEditText)
 
         tpMaterialEditText.setOnClickListener {
@@ -58,6 +70,46 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
             }
         }
 
+    }
+
+    private fun startGallery() {
+        launcherGallery.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+    }
+
+    private val launcherGallery = registerForActivityResult(
+        ActivityResultContracts.PickVisualMedia()
+    ) { uri: Uri? ->
+        if (uri != null) {
+            currentImageUri = uri
+            showImage()
+        } else {
+            Log.d("Photo Picker", "No media selected")
+        }
+    }
+
+    private fun startCamera() {
+        currentImageUri = getImageUri(this)
+        launcherIntentCamera.launch(currentImageUri)
+    }
+
+    private val launcherIntentCamera = registerForActivityResult(
+        ActivityResultContracts.TakePicture()
+    ) { isSuccess ->
+        if (isSuccess) {
+            showImage()
+        }
+    }
+
+    private fun showImage() {
+        currentImageUri?.let {
+            Log.d("Image URI", "showImage: $it")
+            binding.materialImageView.setImageURI(it)
+
+            val fileName = getFileNameFromUri(this, it)
+            Log.d("File Name", "showImage: $fileName")
+
+            binding.fMaterialEditText.setText(fileName)
+        }
     }
 
     override fun onClick(v: View?) {
@@ -85,4 +137,5 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
         )
         datePickerDialog.show()
     }
+
 }

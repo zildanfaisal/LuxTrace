@@ -345,14 +345,14 @@
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:hint="@string/tpMaterial" >
+                android:hint="@string/tpProduct" >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tpMaterialEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="datetime" />
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button

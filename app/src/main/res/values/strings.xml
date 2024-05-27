@@ -62,6 +62,9 @@
     <string name="aoMaterial">Addition of Material</string>
     <string name="mUsage">Material Usage</string>\
     <string name="mAdded">Material Added</string>
+    <string name="material_photo">Material Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
 
     <!--Name Material-->
     <string-array name="dnMaterial">
