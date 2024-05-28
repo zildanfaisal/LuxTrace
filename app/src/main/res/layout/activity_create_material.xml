@@ -192,7 +192,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="datetime" />
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -212,8 +212,53 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:enabled="false"/>
+
             </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/materialImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:contentDescription="@string/material_photo"
+                android:src="@drawable/ic_place_holder" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:rowCount="2"
+                android:columnCount="2">
+
+                <Button
+                    android:id="@+id/btnGallery"
+                    android:backgroundTint="@color/primary_300"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/gallery"/>
+
+                <Button
+                    android:id="@+id/btnCamera"
+                    android:backgroundTint="@color/primary_500"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/camera" />
+
+            </GridLayout>
 
             <Button
                 android:id="@+id/btnCMaterial"

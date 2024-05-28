@@ -569,8 +569,8 @@
 
                 <Button
                     android:id="@+id/btnUpdate"
-                    android:backgroundTint="@color/white"
-                    android:textColor="@color/primary_500"
+                    android:backgroundTint="@color/primary_300"
+                    android:textColor="@color/white"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
