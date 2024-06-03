@@ -6,5 +6,6 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class ProcessingProduct(
     val nProcessingProduct: String,
+    val sProcessingProduct: String,
     val dProcessingProduct: String
 ): Parcelable

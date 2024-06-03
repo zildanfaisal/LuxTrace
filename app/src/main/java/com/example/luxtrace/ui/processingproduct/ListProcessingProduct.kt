@@ -28,10 +28,11 @@ class ListProcessingProduct : AppCompatActivity() {
 
     private fun getListProcessingProduct(): ArrayList<ProcessingProduct> {
         val dataName = resources.getStringArray(R.array.dnProduct)
+        val dataStatus = resources.getStringArray(R.array.dsProduct)
         val dataDescription = resources.getStringArray(R.array.ddProduct)
         val listProcessingProduct = ArrayList<ProcessingProduct>()
         for (i in dataName.indices) {
-            val processingProduct = ProcessingProduct(dataName[i], dataDescription[i])
+            val processingProduct = ProcessingProduct(dataName[i], dataStatus[i], dataDescription[i])
             listProcessingProduct.add(processingProduct)
         }
         return listProcessingProduct

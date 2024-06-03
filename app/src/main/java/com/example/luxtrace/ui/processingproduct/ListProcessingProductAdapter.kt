@@ -14,6 +14,7 @@ class ListProcessingProductAdapter(private val listProcessingProduct: ArrayList<
 
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
+        val tvStatus: TextView = itemView.findViewById(R.id.tv_item_status)
         val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
     }
 
@@ -25,8 +26,9 @@ class ListProcessingProductAdapter(private val listProcessingProduct: ArrayList<
     override fun getItemCount(): Int = listProcessingProduct.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description) = listProcessingProduct[position]
+        val (name, status, description) = listProcessingProduct[position]
         holder.tvName.text = name
+        holder.tvStatus.text = status
         holder.tvDescription.text = description
 
         holder.itemView.setOnClickListener {
