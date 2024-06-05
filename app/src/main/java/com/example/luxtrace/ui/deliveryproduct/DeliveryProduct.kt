@@ -39,7 +39,11 @@ class DeliveryProduct : AppCompatActivity() {
         btnQR = findViewById(R.id.btnSubmitDProduct)
 
         btnQR.setOnClickListener {
-            val code = acPName.text.toString() + acShipper.text.toString() + edAmount.text.toString() + acDShop.text.toString() + edDistance.text.toString()
+            val code = "Product Name: " + acPName.text.toString() +
+                    "\nShipper: " + acShipper.text.toString() +
+                    "\nAmount: " + edAmount.text.toString() +
+                    "\nDestination: " + acDShop.text.toString() +
+                    "\nDistance: " + edDistance.text.toString()
             try {
                 val bitMatrix = multi.encode(code, BarcodeFormat.QR_CODE, 300, 300)
                 val barcodeEncoder = BarcodeEncoder()
