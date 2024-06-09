@@ -19,6 +19,10 @@ class UpdateDTracking : AppCompatActivity(), View.OnClickListener {
         binding = ActivityUpdateDtrackingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.topAppBar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
         binding.btnSubmitUpdateDT.setOnClickListener(this)
     }
 

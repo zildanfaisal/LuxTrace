@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.luxtrace.R
+import com.google.android.material.appbar.MaterialToolbar
 
 class ListDeliveryTracking : AppCompatActivity() {
 
@@ -21,6 +22,12 @@ class ListDeliveryTracking : AppCompatActivity() {
 
         rvDeliveryTracking = findViewById(R.id.rvDeliveryTracking)
         rvDeliveryTracking.setHasFixedSize(true)
+
+        val topAppBar: MaterialToolbar = findViewById(R.id.topAppBar)
+        topAppBar.setNavigationOnClickListener {
+            // Handle back button press
+            onBackPressed()
+        }
 
         list.addAll(getListDeliveryTracking())
         showRecyclerList()

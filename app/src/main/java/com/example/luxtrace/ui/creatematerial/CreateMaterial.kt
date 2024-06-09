@@ -51,6 +51,10 @@ class CreateMaterial : AppCompatActivity(), View.OnClickListener {
         )
         val adapterPNPemasok = ArrayAdapter(this, R.layout.list_items, itemPNPemasok)
 
+        binding.topAppBar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
         binding.jMaterialDropdown.setAdapter(adapterJMaterial)
         binding.pnPemasokDropdown.setAdapter(adapterPNPemasok)
         binding.btnCMaterial.setOnClickListener(this)

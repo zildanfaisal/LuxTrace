@@ -93,6 +93,10 @@ class DeliveryProduct : AppCompatActivity() {
         )
         val adapterDShop = ArrayAdapter(this, R.layout.list_items, itemDShop)
 
+        binding.topAppBar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
         binding.snProductDropdown.setAdapter(adapterSNProduct)
         binding.sShipperDropdown.setAdapter(adapterSShipper)
         binding.sDestiantionShopDropdown.setAdapter(adapterDShop)

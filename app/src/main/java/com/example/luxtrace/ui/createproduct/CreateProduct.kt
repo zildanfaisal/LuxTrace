@@ -108,6 +108,10 @@ class CreateProduct : AppCompatActivity(), View.OnClickListener {
         )
         val adapterSLCraftsman = ArrayAdapter(this, R.layout.list_items, itemSLCraftsman)
 
+        binding.topAppBar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
         binding.uMaterialDropdown.setAdapter(adapterUMaterial)
         binding.uCraftsmanDropdown.setAdapter(adapterUCraftsman)
 

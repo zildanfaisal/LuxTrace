@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomToolbarTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item> <!-- Adjust text size here -->
+        <item name="android:textColor">@color/white</item> <!-- Adjust text color if needed -->
+    </style>
+
+</resources>

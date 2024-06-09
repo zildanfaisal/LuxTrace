@@ -24,6 +24,7 @@ import com.bumptech.glide.Glide.init
 import com.example.luxtrace.R
 import com.example.luxtrace.databinding.ActivitySignOffDtrackingBinding
 import com.github.gcacace.signaturepad.views.SignaturePad
+import com.google.android.material.appbar.MaterialToolbar
 import java.util.Calendar
 
 class SignOffDTracking : AppCompatActivity() {
@@ -36,6 +37,12 @@ class SignOffDTracking : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_off_dtracking)
+
+        val topAppBar: MaterialToolbar = findViewById(R.id.topAppBar)
+        topAppBar.setNavigationOnClickListener {
+            // Handle back button press
+            onBackPressed()
+        }
 
         checkPermission()
         init()

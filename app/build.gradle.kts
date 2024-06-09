@@ -45,6 +45,10 @@ dependencies {
     implementation("com.github.gcacace:signature-pad:1.3.1")
     //Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
     //ViewPager
     implementation("androidx.viewpager2:viewpager2:1.0.0")

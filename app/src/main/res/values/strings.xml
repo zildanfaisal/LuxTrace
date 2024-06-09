@@ -143,4 +143,29 @@
         <item>@drawable/logo</item>
     </integer-array>
 
+    <!--Update Tracking-->
+    <string-array name="utDate">
+        <item>20-04-2024, 15.34</item>
+        <item>22-04-2024, 10.04</item>
+        <item>22-04-2024, 14.15</item>
+        <item>25-04-2024, 17.45</item>
+        <item>26-04-2024, 10.00</item>
+    </string-array>
+
+    <string-array name="utDescription">
+        <item>Pesanan diterima</item>
+        <item>Barang diproses</item>
+        <item>Barang telah dikirim</item>
+        <item>Barang telah sampai di titik A</item>
+        <item>Barang telah diterima di toko A</item>
+    </string-array>
+
+    <string-array name="utStatus">
+        <item>Diproses</item>
+        <item>Diproses</item>
+        <item>Dikirim</item>
+        <item>Dikirim</item>
+        <item>Diterima</item>
+    </string-array>
+
 </resources>

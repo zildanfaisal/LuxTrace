@@ -26,6 +26,9 @@ class ListProduct : AppCompatActivity(), View.OnClickListener {
         binding = ActivityListProductBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.topAppBar.setNavigationOnClickListener {
+            onBackPressed()
+        }
         rvProduct = findViewById(R.id.rvProduct)
         rvProduct.setHasFixedSize(true)
 

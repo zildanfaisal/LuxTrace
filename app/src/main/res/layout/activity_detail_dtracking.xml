@@ -9,6 +9,18 @@
     android:background="@color/primary_500"
     tools:context=".ui.deliverytracking.detailtracking.DetailDTracking">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_500"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="Back"
+        app:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/CustomToolbarTextAppearance"
+        android:layout_alignParentTop="true"/>
+
     <View
         android:id="@+id/top_view"
         android:layout_width="match_parent"
@@ -137,7 +149,7 @@
                 android:layout_marginTop="20dp"
                 android:rowCount="2"
                 android:columnCount="2"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="20dp">
 
                 <Button
                     android:id="@+id/btnUpdateTracking"
@@ -163,6 +175,11 @@
                     android:text="Sign Off"/>
 
             </GridLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvUpdateTracking"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 

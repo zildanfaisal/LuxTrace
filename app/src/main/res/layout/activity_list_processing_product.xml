@@ -8,6 +8,18 @@
     android:background="@color/primary_500"
     tools:context=".ui.processingproduct.ListProcessingProduct">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_500"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="Back"
+        app:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/CustomToolbarTextAppearance"
+        android:layout_alignParentTop="true"/>
+
     <View
         android:id="@+id/top_view"
         android:layout_width="match_parent"
@@ -68,13 +80,30 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
         android:layout_below="@+id/top_view" >
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvProcessingProduct"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="30dp" />
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvProcessingProduct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnCreateProduct"
+                android:layout_marginBottom="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDProduct"
+                android:backgroundTint="@color/primary_500"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
 
     </ScrollView>
 

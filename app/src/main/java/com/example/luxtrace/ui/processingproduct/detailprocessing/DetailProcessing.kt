@@ -14,6 +14,10 @@ class DetailProcessing : AppCompatActivity() {
         binding = ActivityDetailProcessingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.topAppBar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
         val fragmentManager = supportFragmentManager
         val unCompletedFragment = ProcessingUncompletedFragment()
         val fragment = fragmentManager.findFragmentByTag(ProcessingUncompletedFragment::class.java.simpleName)
