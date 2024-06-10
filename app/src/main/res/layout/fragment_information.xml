@@ -42,6 +42,7 @@
                     android:layout_toEndOf="@id/img_item_photo"
                     android:textSize="16sp"
                     android:textStyle="bold"
+                    android:fontFamily="@font/dmsans_medium"
                     android:text="@string/nMaterial"
                     card_view:layout_constraintEnd_toEndOf="parent"
                     card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
@@ -52,6 +53,7 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="8dp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:text="@string/dMaterial"
                     android:ellipsize="end"
                     android:maxLines="2"
@@ -76,6 +78,7 @@
             <TextView
                 android:id="@+id/nSupplier"
                 android:textSize="14sp"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nSupplier" />
@@ -83,6 +86,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="PT. Pemasok Sejahtera" />
@@ -98,6 +102,7 @@
                 android:id="@+id/aSupplier"
                 android:layout_marginTop="15dp"
                 android:textSize="14sp"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/aSupplier" />
@@ -106,6 +111,7 @@
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
                 android:layout_width="match_parent"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_height="wrap_content"
                 android:text="Jl. Kapten Maulana Lubis No.9 Medan" />
 
@@ -120,6 +126,7 @@
                 android:id="@+id/pDate"
                 android:layout_marginTop="15dp"
                 android:textSize="14sp"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/pDate" />
@@ -127,6 +134,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="20 April 2024" />
@@ -142,6 +150,7 @@
                 android:id="@+id/mAmount"
                 android:layout_marginTop="15dp"
                 android:textSize="14sp"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mAmount" />
@@ -149,6 +158,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="123" />

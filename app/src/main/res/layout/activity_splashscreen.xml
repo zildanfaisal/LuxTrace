@@ -28,8 +28,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/dmsans_bold"
                 android:text="@string/app_name"
-                android:textStyle="bold"
                 android:textColor="@color/primary_600"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
 

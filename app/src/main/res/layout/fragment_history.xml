@@ -81,6 +81,7 @@
                 <TextView
                     android:id="@+id/aoMaterial"
                     android:textSize="14sp"
+                    android:fontFamily="@font/dmsans_medium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/aoMaterial" />
@@ -88,6 +89,7 @@
                 <TextView
                     android:textAlignment="textEnd"
                     android:layout_width="match_parent"
+                    android:fontFamily="@font/dmsans_medium"
                     android:layout_height="wrap_content"
                     android:text="@string/jProduct"
                     android:textSize="14sp" />
@@ -102,6 +104,7 @@
                 <TextView
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="20 April 2024" />
@@ -110,6 +113,7 @@
                     android:textAlignment="textEnd"
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="12" />
@@ -133,6 +137,7 @@
                     android:id="@+id/mUsage"
                     android:textSize="14sp"
                     android:layout_width="wrap_content"
+                    android:fontFamily="@font/dmsans_medium"
                     android:layout_height="wrap_content"
                     android:text="@string/mUsage" />
 
@@ -140,6 +145,7 @@
                     android:textAlignment="textEnd"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_medium"
                     android:text="@string/jProduct"
                     android:textSize="14sp" />
 
@@ -153,6 +159,7 @@
                 <TextView
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="20 April 2024" />
@@ -161,6 +168,7 @@
                     android:textAlignment="textEnd"
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="7" />
@@ -185,12 +193,14 @@
                     android:textSize="14sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_medium"
                     android:text="@string/mAdded" />
 
                 <TextView
                     android:textAlignment="textEnd"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_medium"
                     android:text="@string/jProduct"
                     android:textSize="14sp" />
 
@@ -204,6 +214,7 @@
                 <TextView
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="20 April 2024" />
@@ -212,6 +223,7 @@
                     android:textAlignment="textEnd"
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="10" />

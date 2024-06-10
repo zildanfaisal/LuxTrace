@@ -21,6 +21,7 @@
                 android:id="@+id/nProduct"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nProduct" />
@@ -28,6 +29,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="PT. Pemasok Sejahtera" />
@@ -43,6 +45,7 @@
                 android:id="@+id/nMaterial"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,12 +59,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Upper: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -76,12 +81,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Insole: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -96,12 +103,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lining: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -116,12 +125,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Outsole: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -136,12 +147,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Shoe Laces: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -159,6 +172,7 @@
                 android:id="@+id/nCraftsman"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -172,12 +186,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Upper: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -192,12 +208,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Insole: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -212,12 +230,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lining: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -232,12 +252,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Outsole: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -252,12 +274,14 @@
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Shoe Laces: " />
 
                 <TextView
                     android:textSize="12sp"
+                    android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="xxxxxxxxxx" />
@@ -275,6 +299,7 @@
                 android:id="@+id/aProduct"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -283,6 +308,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="12" />
@@ -298,6 +324,7 @@
                 android:id="@+id/dProduct"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -306,6 +333,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:textSize="12sp"
+                android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="20 April 2024, 11.02 WIB" />
@@ -338,6 +366,7 @@
                             android:layout_toStartOf="@id/checkboxOne"
                             android:textSize="16sp"
                             android:textStyle="bold"
+                            android:fontFamily="@font/dmsans_medium"
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxOne"
                             card_view:layout_constraintTop_toTopOf="parent"
@@ -349,6 +378,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
                             android:maxLines="2"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -385,6 +415,7 @@
                             android:layout_toStartOf="@id/checkboxTwo"
                             android:textSize="16sp"
                             android:textStyle="bold"
+                            android:fontFamily="@font/dmsans_medium"
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxTwo"
                             card_view:layout_constraintTop_toTopOf="parent"
@@ -396,6 +427,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
                             android:maxLines="2"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -432,6 +464,7 @@
                             android:layout_toStartOf="@id/checkboxThree"
                             android:textSize="16sp"
                             android:textStyle="bold"
+                            android:fontFamily="@font/dmsans_medium"
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxThree"
                             card_view:layout_constraintTop_toTopOf="parent"
@@ -443,6 +476,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
                             android:maxLines="2"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -479,6 +513,7 @@
                             android:layout_toStartOf="@id/checkboxFour"
                             android:textSize="16sp"
                             android:textStyle="bold"
+                            android:fontFamily="@font/dmsans_medium"
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxFour"
                             card_view:layout_constraintTop_toTopOf="parent"
@@ -490,6 +525,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
                             android:maxLines="2"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -526,6 +562,7 @@
                             android:layout_toStartOf="@id/checkboxFive"
                             android:textSize="16sp"
                             android:textStyle="bold"
+                            android:fontFamily="@font/dmsans_medium"
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxFive"
                             card_view:layout_constraintTop_toTopOf="parent"
@@ -537,6 +574,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
                             android:maxLines="2"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -572,6 +610,7 @@
                     android:backgroundTint="@color/primary_300"
                     android:textColor="@color/white"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_medium"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:layout_row="1"
@@ -583,6 +622,7 @@
                     android:id="@+id/btnDone"
                     android:backgroundTint="@color/primary_500"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_medium"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:layout_row="1"

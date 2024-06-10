@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:textColor="@color/white"
-        android:textStyle="bold"
+        android:fontFamily="@font/dmsans_bold"
         android:layout_marginStart="40dp"
         android:layout_above="@+id/grid_view"
         android:layout_marginBottom="20dp"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:textColor="@color/white"
-        android:textStyle="bold"
+        android:fontFamily="@font/dmsans_bold"
         android:layout_marginStart="25dp"
         android:layout_toEndOf="@+id/logo"
         android:layout_marginBottom="10dp"
@@ -70,6 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="15sp"
+        android:fontFamily="@font/dmsans_regular"
         android:textColor="@color/white"
         android:layout_marginStart="25dp"
         android:layout_toEndOf="@+id/logo"
@@ -103,6 +104,7 @@
                     android:id="@+id/nProductEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -123,6 +125,7 @@
                     android:id="@+id/dProductEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="number" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -143,6 +146,7 @@
                     android:id="@+id/jProductEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="number" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -163,6 +167,7 @@
                     android:id="@+id/uMaterialDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -183,6 +188,7 @@
                     android:id="@+id/uCraftsmanDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -203,6 +209,7 @@
                     android:id="@+id/iMaterialDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -223,6 +230,7 @@
                     android:id="@+id/iCraftsmanDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -243,6 +251,7 @@
                     android:id="@+id/lMaterialDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -263,6 +272,7 @@
                     android:id="@+id/lCraftsmanDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -283,6 +293,7 @@
                     android:id="@+id/oMaterialDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -303,6 +314,7 @@
                     android:id="@+id/oCraftsmanDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -323,6 +335,7 @@
                     android:id="@+id/slMaterialDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -343,6 +356,7 @@
                     android:id="@+id/slCraftsmanDropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -363,6 +377,7 @@
                     android:id="@+id/tpMaterialEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -373,6 +388,7 @@
                 android:layout_marginEnd="32dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
+                android:fontFamily="@font/dmsans_medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btnCreate"
