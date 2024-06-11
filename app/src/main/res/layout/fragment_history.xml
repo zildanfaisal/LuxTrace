@@ -30,7 +30,7 @@
                     card_view:layout_constraintBottom_toBottomOf="parent"
                     card_view:layout_constraintStart_toStartOf="parent"
                     card_view:layout_constraintTop_toTopOf="parent"
-                    android:background="@drawable/logo" />
+                    android:background="@drawable/material1" />
 
                 <TextView
                     android:id="@+id/tv_item_name"
@@ -42,7 +42,7 @@
                     android:layout_toEndOf="@id/img_item_photo"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="@string/nMaterial"
+                    android:text="Kenaf Fiber"
                     card_view:layout_constraintEnd_toEndOf="parent"
                     card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
                     card_view:layout_constraintTop_toTopOf="@+id/img_item_photo" />
@@ -52,9 +52,9 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="8dp"
-                    android:text="@string/dMaterial"
+                    android:text="Kenaf Fibers, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos ex illo inventore laudantium perferendis suscipit, tempore unde voluptatum! Ab animi consequuntur cum, ducimus eius est excepturi harum hic id laborum neque optio quidem ratione reprehenderit repudiandae saepe suscipit tempora totam veniam voluptatibus? Atque cumque deserunt minus quos, temporibus veniam."
                     android:ellipsize="end"
-                    android:maxLines="2"
+                    android:maxLines="3"
                     card_view:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
                     card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name"
                     card_view:layout_constraintStart_toStartOf="@+id/tv_item_name"

@@ -68,42 +68,42 @@
 
     <!--Name Material-->
     <string-array name="dnMaterial">
-        <item>Imported Shoe Upper</item>
-        <item>Imported Shoe Insole</item>
-        <item>Imported Shoe Lining</item>
-        <item>Imported Shoe Outsole</item>
-        <item>Imported Shoe Lace</item>
-        <item>Exported Shoe Upper</item>
-        <item>Exported Shoe Insole</item>
-        <item>Exported Shoe Lining</item>
-        <item>Exported Shoe Outsole</item>
-        <item>Exported Shoe Lace</item>
+        <item>Kenaf Fibers</item>
+        <item>Recycled Cotton</item>
+        <item>Latex</item>
+        <item>Natural Rubber</item>
+        <item>Beech Tree Fiber</item>
+        <item>Beech Trees Cellulose Fiber</item>
+        <item>Thermoplastic Rubber</item>
+        <item>Natural Rubber</item>
+        <item>Recycled Polyester</item>
+        <item>Cotton</item>
     </string-array>
 
     <string-array name="ddMaterial">
-        <item>Imported Shoe Upper, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos ex illo inventore laudantium perferendis suscipit, tempore unde voluptatum! Ab animi consequuntur cum, ducimus eius est excepturi harum hic id laborum neque optio quidem ratione reprehenderit repudiandae saepe suscipit tempora totam veniam voluptatibus? Atque cumque deserunt minus quos, temporibus veniam.</item>
-        <item>Imported Shoe Insole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Imported Shoe Lining, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Imported Shoe Outsole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Imported Shoe Lace, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Exported Shoe Upper, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Exported Shoe Insole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Exported Shoe Lining, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Exported Shoe Outsole, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
-        <item>Exported Shoe Lace, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Kenaf Fibers, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos ex illo inventore laudantium perferendis suscipit, tempore unde voluptatum! Ab animi consequuntur cum, ducimus eius est excepturi harum hic id laborum neque optio quidem ratione reprehenderit repudiandae saepe suscipit tempora totam veniam voluptatibus? Atque cumque deserunt minus quos, temporibus veniam.</item>
+        <item>Recycled Cotton, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Latex, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Natural Rubber, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Beech Tree Fiber, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Beech Tree Cellulose Fiber, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Thermoplastic Rubber, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Natural Rubber, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Recycled Polyester, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
+        <item>Cotton, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda aut cupiditate eius eos error eveniet harum ipsum nesciunt recusandae repudiandae saepe, tempora unde? Ab accusantium ad architecto at cumque cupiditate dolorem dolorum earum et, excepturi impedit in incidunt inventore ipsum laboriosam, maxime molestias numquam optio qui quisquam sunt voluptates.</item>
     </string-array>
 
     <integer-array name="dpMaterial">
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
+        <item>@drawable/material1</item>
+        <item>@drawable/material2</item>
+        <item>@drawable/material3</item>
+        <item>@drawable/material4</item>
+        <item>@drawable/material1</item>
+        <item>@drawable/material1</item>
+        <item>@drawable/material7</item>
+        <item>@drawable/material4</item>
+        <item>@drawable/material2</item>
+        <item>@drawable/material2</item>
     </integer-array>
 
     <!--Processing Product-->
@@ -135,12 +135,12 @@
     </string-array>
 
     <integer-array name="dpProduct">
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
+        <item>@drawable/product1</item>
+        <item>@drawable/product2</item>
+        <item>@drawable/product3</item>
+        <item>@drawable/product4</item>
+        <item>@drawable/product5</item>
+        <item>@drawable/product6</item>
     </integer-array>
 
     <!--Update Tracking-->

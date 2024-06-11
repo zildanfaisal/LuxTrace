@@ -32,7 +32,7 @@
                 android:fontFamily="@font/dmsans_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="PT. Pemasok Sejahtera" />
+                android:text="Atlas Sneaker White" />
 
             <View
                 android:layout_marginTop="10dp"
@@ -69,7 +69,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Kenaf Fibers and Ramie (Red Pull Tap)" />
 
             </LinearLayout>
 
@@ -91,7 +91,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Latex" />
 
             </LinearLayout>
 
@@ -113,7 +113,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Beech tree fiber" />
 
             </LinearLayout>
 
@@ -135,7 +135,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Natural Raw Rubber (Crepe Sole)" />
 
             </LinearLayout>
 
@@ -157,7 +157,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Recycled Polyester" />
 
             </LinearLayout>
 
@@ -196,7 +196,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Iqbal Inggil" />
 
             </LinearLayout>
 
@@ -218,7 +218,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Regi Muhammar" />
 
             </LinearLayout>
 
@@ -240,7 +240,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Alda Ellsa" />
 
             </LinearLayout>
 
@@ -262,7 +262,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Wiwit Atika" />
 
             </LinearLayout>
 
@@ -284,7 +284,7 @@
                     android:fontFamily="@font/dmsans_regular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Juanda Felix" />
 
             </LinearLayout>
 
@@ -370,7 +370,7 @@
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxOne"
                             card_view:layout_constraintTop_toTopOf="parent"
-                            android:text="Process 1" />
+                            android:text="Process: Material Preparation" />
 
                         <TextView
                             android:id="@+id/dProcessOne"
@@ -380,12 +380,12 @@
                             android:layout_marginBottom="5dp"
                             android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
-                            android:maxLines="2"
+                            android:maxLines="3"
                             app:layout_constraintBottom_toBottomOf="parent"
                             card_view:layout_constraintEnd_toEndOf="@+id/nProcessOne"
                             card_view:layout_constraintStart_toStartOf="@+id/nProcessOne"
                             card_view:layout_constraintTop_toBottomOf="@+id/nProcessOne"
-                            android:text="Deskripsi Process 1" />
+                            android:text="Materials like leather, fabric, and rubber are selected, cut into specific shapes, and inspected for quality." />
 
                         <CheckBox
                             android:id="@+id/checkboxOne"
@@ -419,7 +419,7 @@
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxTwo"
                             card_view:layout_constraintTop_toTopOf="parent"
-                            android:text="Process 2" />
+                            android:text="Process: Makin the Upper" />
 
                         <TextView
                             android:id="@+id/dProcessTwo"
@@ -429,12 +429,12 @@
                             android:layout_marginBottom="5dp"
                             android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
-                            android:maxLines="2"
+                            android:maxLines="3"
                             app:layout_constraintBottom_toBottomOf="parent"
                             card_view:layout_constraintEnd_toEndOf="@+id/nProcessTwo"
                             card_view:layout_constraintStart_toStartOf="@+id/nProcessTwo"
                             card_view:layout_constraintTop_toBottomOf="@+id/nProcessTwo"
-                            android:text="Deskripsi Process 2" />
+                            android:text="Cut pieces are sewn together to form the upper part of the shoe, with added reinforcements and decorative elements." />
 
                         <CheckBox
                             android:id="@+id/checkboxTwo"
@@ -468,7 +468,7 @@
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxThree"
                             card_view:layout_constraintTop_toTopOf="parent"
-                            android:text="Process 3" />
+                            android:text="Process: Making Soles" />
 
                         <TextView
                             android:id="@+id/dProcessThree"
@@ -478,12 +478,12 @@
                             android:layout_marginBottom="5dp"
                             android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
-                            android:maxLines="2"
+                            android:maxLines="3"
                             app:layout_constraintBottom_toBottomOf="parent"
                             card_view:layout_constraintEnd_toEndOf="@+id/nProcessThree"
                             card_view:layout_constraintStart_toStartOf="@+id/nProcessThree"
                             card_view:layout_constraintTop_toBottomOf="@+id/nProcessThree"
-                            android:text="Deskripsi Process 3" />
+                            android:text="Outsoles are molded or cut, shaped to fit the shoe design, and prepared for attachment." />
 
                         <CheckBox
                             android:id="@+id/checkboxThree"
@@ -517,7 +517,7 @@
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxFour"
                             card_view:layout_constraintTop_toTopOf="parent"
-                            android:text="Process 4" />
+                            android:text="Process: Shoe Assembly" />
 
                         <TextView
                             android:id="@+id/dProcessFour"
@@ -527,12 +527,12 @@
                             android:layout_marginBottom="5dp"
                             android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
-                            android:maxLines="2"
+                            android:maxLines="3"
                             app:layout_constraintBottom_toBottomOf="parent"
                             card_view:layout_constraintEnd_toEndOf="@+id/nProcessFour"
                             card_view:layout_constraintStart_toStartOf="@+id/nProcessFour"
                             card_view:layout_constraintTop_toBottomOf="@+id/nProcessFour"
-                            android:text="Deskripsi Process 4" />
+                            android:text="The upper is shaped using a last, then joined with the sole using adhesives or stitching, with final adjustments made." />
 
                         <CheckBox
                             android:id="@+id/checkboxFour"
@@ -566,7 +566,7 @@
                             card_view:layout_constraintStart_toStartOf="parent"
                             card_view:layout_constraintEnd_toStartOf="@+id/checkboxFive"
                             card_view:layout_constraintTop_toTopOf="parent"
-                            android:text="Process 5" />
+                            android:text="Process: Finished and Packaging" />
 
                         <TextView
                             android:id="@+id/dProcessFive"
@@ -576,12 +576,12 @@
                             android:layout_marginBottom="5dp"
                             android:fontFamily="@font/dmsans_regular"
                             android:ellipsize="end"
-                            android:maxLines="2"
+                            android:maxLines="3"
                             app:layout_constraintBottom_toBottomOf="parent"
                             card_view:layout_constraintEnd_toEndOf="@+id/nProcessFive"
                             card_view:layout_constraintStart_toStartOf="@+id/nProcessFive"
                             card_view:layout_constraintTop_toBottomOf="@+id/nProcessFive"
-                            android:text="Deskripsi Process 5" />
+                            android:text="Shoes are inspected, cleaned, polished, packed with accessories, and prepared for distribution." />
 
                         <CheckBox
                             android:id="@+id/checkboxFive"

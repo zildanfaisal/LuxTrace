@@ -108,7 +108,7 @@
                         card_view:layout_constraintBottom_toBottomOf="parent"
                         card_view:layout_constraintStart_toStartOf="parent"
                         card_view:layout_constraintTop_toTopOf="parent"
-                        android:background="@drawable/logo" />
+                        android:background="@drawable/product1" />
 
                     <TextView
                         android:id="@+id/tv_item_name"
@@ -120,7 +120,7 @@
                         android:layout_toEndOf="@id/img_item_photo"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:text="@string/nProduct"
+                        android:text="Atlas Sneaker White"
                         card_view:layout_constraintEnd_toEndOf="parent"
                         card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
                         card_view:layout_constraintTop_toTopOf="@+id/img_item_photo" />
@@ -130,9 +130,9 @@
                         android:layout_width="0dp"
                         android:layout_height="0dp"
                         android:layout_marginTop="8dp"
-                        android:text="@string/dProduct"
+                        android:text="Atlas Sneaker White, Atlas Sneaker White, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet dignissimos dolores eligendi libero minima molestias quas recusandae temporibus totam!"
                         android:ellipsize="end"
-                        android:maxLines="2"
+                        android:maxLines="3"
                         card_view:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
                         card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name"
                         card_view:layout_constraintStart_toStartOf="@+id/tv_item_name"
@@ -175,7 +175,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Kenaf Fibers and Ramie (Red Pull Tap)" />
 
             </LinearLayout>
 
@@ -195,7 +195,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Latex" />
 
             </LinearLayout>
 
@@ -215,7 +215,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Beech tree fiber" />
 
             </LinearLayout>
 
@@ -235,7 +235,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Natural Raw Rubber (Crepe Sole)" />
 
             </LinearLayout>
 
@@ -255,7 +255,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Recycled Polyester" />
 
             </LinearLayout>
 
@@ -291,7 +291,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Iqbal Inggil" />
 
             </LinearLayout>
 
@@ -311,7 +311,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Regi Muhammar" />
 
             </LinearLayout>
 
@@ -331,7 +331,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Alda Ellsa" />
 
             </LinearLayout>
 
@@ -351,7 +351,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Wiwit Atika" />
 
             </LinearLayout>
 
@@ -371,7 +371,7 @@
                     android:textSize="12sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx" />
+                    android:text="Juanda Felix" />
 
             </LinearLayout>
 
