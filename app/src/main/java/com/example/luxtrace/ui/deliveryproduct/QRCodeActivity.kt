@@ -1,6 +1,7 @@
 package com.example.luxtrace.ui.deliveryproduct
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -12,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.luxtrace.R
+import com.example.luxtrace.ui.dashboard.Dashboard
 import java.io.File
 import java.io.FileOutputStream
 
@@ -34,6 +36,8 @@ class QRCodeActivity : AppCompatActivity() {
 
                 btnPrintQr.setOnClickListener{
                     saveQRCode(bitmap)
+                    val moveIntent = Intent(this@QRCodeActivity, Dashboard::class.java)
+                    startActivity(moveIntent)
                 }
             }
         }

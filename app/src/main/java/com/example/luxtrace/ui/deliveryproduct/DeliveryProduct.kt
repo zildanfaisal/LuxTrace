@@ -39,11 +39,13 @@ class DeliveryProduct : AppCompatActivity() {
         btnQR = findViewById(R.id.btnSubmitDProduct)
 
         btnQR.setOnClickListener {
-            val code = "Product Name: " + acPName.text.toString() +
-                    "\nShipper: " + acShipper.text.toString() +
-                    "\nAmount: " + edAmount.text.toString() +
-                    "\nDestination: " + acDShop.text.toString() +
-                    "\nDistance: " + edDistance.text.toString()
+//            val code = "Product Name: " + acPName.text.toString() +
+//                    "\nShipper: " + acShipper.text.toString() +
+//                    "\nAmount: " + edAmount.text.toString() +
+//                    "\nDestination: " + acDShop.text.toString() +
+//                    "\nDistance: " + edDistance.text.toString()
+
+            val code = "https://luxtrace.000webhostapp.com/tracepage.html"
             try {
                 val bitMatrix = multi.encode(code, BarcodeFormat.QR_CODE, 300, 300)
                 val barcodeEncoder = BarcodeEncoder()

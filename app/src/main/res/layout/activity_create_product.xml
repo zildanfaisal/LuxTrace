@@ -127,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/dmsans_regular"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout

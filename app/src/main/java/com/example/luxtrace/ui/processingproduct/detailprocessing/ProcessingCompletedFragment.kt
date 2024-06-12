@@ -2,6 +2,7 @@ package com.example.luxtrace.ui.processingproduct.detailprocessing
 
 import android.Manifest
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
@@ -17,6 +18,9 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.example.luxtrace.R
 import com.example.luxtrace.databinding.FragmentProcessingCompletedBinding
+import com.example.luxtrace.ui.creatematerial.CreateMaterial
+import com.example.luxtrace.ui.dashboard.Dashboard
+import com.example.luxtrace.ui.processingproduct.ListProcessingProduct
 import com.example.luxtrace.ui.utils.getFileNameFromUri
 import com.example.luxtrace.ui.utils.getImageUri
 import com.google.android.material.textfield.TextInputEditText
@@ -32,7 +36,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [ProcessingCompletedFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ProcessingCompletedFragment : Fragment() {
+class ProcessingCompletedFragment : Fragment(), View.OnClickListener {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -63,6 +67,7 @@ class ProcessingCompletedFragment : Fragment() {
 
         binding.btnGallery.setOnClickListener { startGallery() }
         binding.btnCamera.setOnClickListener { startCamera() }
+        binding.btnSubmitProcessing.setOnClickListener(this)
 
         // datePicker
         dateOfCompletionEditText = binding.root.findViewById(R.id.dateOfCompletionEditText)
@@ -155,5 +160,14 @@ class ProcessingCompletedFragment : Fragment() {
                 }
             }
 
+    }
+
+    override fun onClick(v: View?) {
+        when(v?.id) {
+            binding.btnSubmitProcessing.id -> {
+                val moveIntent = Intent(activity, Dashboard::class.java)
+                startActivity(moveIntent)
+            }
+        }
     }
 }
